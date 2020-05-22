@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Agencia especializada em Marketing Digital, criação de sites, estáticos, dinâmicos, mobiles">
+    <meta name="keywords" content="Sites, Marketing, Agência Digital">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Marcelo Xavier">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/style.css">
+    <script src="_js/jquery-3.5.0.min.js"></script>
+    <title>Document</title>
+</head>
+<bod
+y>
+    |<header id="cabecalho">
+
+        <a href="index.html"><h1 class="logo"><a><img src="_img/NOME_EMPRESA.png" alt="Marcinfo Soluções"></a></h1></a>
+        
+        <button id="btn-menu"><img src="_img/12431.png"></button>
+
+        <nav id="menu">
+
+            <button id="btn-close"><img src="_img/seta_direita2.png" alt=""></button>
+
+            <ul>
+                <a href=""><li>Home</li></a>
+                <a href=""><li>Serviços</li></a>
+                <a href=""><li>Loja</li></a>
+                <a href=""><li>Contato</li></a>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <script>
+        $("#btn-menu").click(function(){
+            $("#menu").show();
+        });
+        $("#btn-close").click(function(){
+            $("#menu").hide();
+        });        
+    </script>
+
+    <section id="servicos">
+        
+        <div class="banner-principal">
+
+            <h1>Conheça os nossos planos</h1>
+            <h2>Temos a solução que você procura</h2>
+            
+            <a href="https://www.google.com"><button class="planos">Saiba mais <span>&#8658;</span></button></a>
+
+        </div>
+
+        <article id="manutencao">
+
+            <a href="#"><img src="_img/placa_mae.jpg" alt="Manutenção de computadores e Notebook, Upgrade, Instalação de Software e Hardware, Configuração"></a>
+
+        </article>
+
+        <article id="loja-virtual">
+
+            <a href="#"><img src="_img/lj-virtual.jpg" alt="Manutenção de computadores e Notebook, Upgrade, Instalação de Software e Hardware, Configuração"></a>
+
+        </article>
+
+        <article id="contato">
+
+            <h1>Fale conosco!</h1>
+
+            <h2><em>Entre em Contato e Contrate um de Nossos Serviços com Qualidade, Rapidez e Segurança. <br><br><br>
+
+            Saiba mais clicando aqui  <a href="#"><img src="_img/caixa-postal.png" alt="Ir para a página de contato" id="caixaPostal"></a></em></h2>
+
+        </article>
+
+    </section>
+
+    <footer>
+        <div id="rodape">
+        <p> &copy; Marcinfo Soluções</p>
+        <img src="_img/facebook.png" alt="Facebook" id="face">
+        <img src="_img/instagram.png" alt="Instagram" id="insta">
+        <img src="_img/linkedin.png" alt="Linkedin" id="link">
+        <img src="_img/twitter.png" alt="Twitter" id="twit">
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 95%;
+    border: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+body {
+    padding: 0px;
+    margin-top: -5%;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+/*FONTES PERSONALIZADAS*/
+
+@font-face {
+    font-family: 'bubblegum';
+    src: url(../_fontes/bubblegum-sans-regular.otf);
+}
+
+@font-face {
+    font-family: 'TitilliumWeb';
+    src: url(../_fontes/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-regular';
+    src: url(../_fontes/Lato-Regular.ttf);
+}
+
+/*HEADER CABECALHO*/
+
+header#cabecalho {
+    margin-top: -3;
+    width: 100%;
+    
+    background-color: white;
+}
+
+h1.logo {
+    width: 60%;
+    display: block;
+    float: left;
+    margin: 6% 0 6% 5%;
+}
+
+/*-----MENU-----*/ 
+
+nav#menu {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0;
+    color: white;
+    background: rgba(0, 0, 0, .8);
+}
+
+ul {
+    width: 20%;
+    margin: 30% auto;
+}
+
+ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+    padding: 2%;
+    margin: 25% auto;
+}
+
+button#btn-menu {
+    width: 10%;
+    display: block;
+    float: right;
+    margin: 10% 5% 0;
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+
+button#btn-close {
+    width: 8%;
+    display: block;
+    float: left;
+    margin: 10% 0 0 5%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+/*-----SERVIÇOS-----*/
+
+section#servicos {
+    width: 98%;
+    margin: 0 auto 0;
+}
+
+/*-----BANNER PRINCIPAL-----*/
+
+.banner-principal {
+    width: 100%; 
+    height: 300%;   
+    float: left;
+    background: url(../_img/banner.jpg) no-repeat fixed;
+    color: #f5f5f5;
+    padding: 5% 2%;
+}
+
+.banner-principal h1 {
+    font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
+}
+
+.banner-principal h2 {
+    font-family: 'TitilliumWeb', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+button.planos {
+    color: #f5f5f5;
+    float: right;
+    font-family: 'TitilliumWeb', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 10% 5% 5% 0;
+    background-color: rgba(236, 15, 15, 0.1);
+    cursor: pointer;
+}
+
+.planos span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*-----MANUTENÇÃO-----*/
+
+article#manutencao {
+    width: 100%;
+    float: left;
+    margin: 2% 0 0;
+}
+
+article#manutencao img {
+    width: 100%;
+}
+
+/*-----LOJA VIRTUAL-----*/
+
+article#loja-virtual {
+    width: 100%;
+    float: left;
+    margin: 1% 0 0;
+}
+
+article#loja-virtual img {
+    width: 100%;
+}
+
+/*-----CONTATO-----*/ 
+
+article#contato {
+    width: 100%;    
+    float: left;
+    padding: 2%;
+    margin: 1% 0 0;
+    background: url(../_img/Contato.jpg) no-repeat;
+}
+
+article#contato img#caixaPostal {
+    width: 10%;
+    margin-bottom: -4%;
+}
+
+article#contato h1 {
+    color: #f5f5f5;
+    float: left;
+    font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 2em;
+    margin: 5% 0 0% 5%;
+}
+
+article#contato h2 {
+    color: #f5f5f5;
+    float: left;
+    font-family: 'TitilliumWeb', 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 2% 0 0 5%;
+}
+
+article#contato p{
+    color: #f5f5f5;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 5% 2% 0 0;
+
+}
+
+footer {
+    width: 100%;
+    float: left;
+    margin-bottom: 1px;
+    font-family: 'Lato','Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+div#rodape {
+    width: 98%;
+    margin: 2% auto;
+    background-color: black;
+    color: #f5f5f5;
+    padding: 5% 0 10%;
+}
+
+div#rodape img#face {
+    width: 15%;
+}
+
+div#rodape img#insta {
+    width: 11%;
+    margin: 0 1% 1% 0 ;
+}
+
+div#rodape img#link {
+    width:15%;
+}
+
+div#rodape img#twit {
+    width: 13%;
+
+}
+
+
+
