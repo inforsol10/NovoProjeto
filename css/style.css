@@ -168,6 +168,18 @@ article#manutencao img {
     width: 100%;
 }
 
+/*-----Construção de sites-----*/
+
+article#construcao-site {
+    width: 100%;
+    float: left;
+    margin: 2% 0 0;
+}
+
+article#constrcao-site img {
+    width: 100%;
+}
+
 /*-----LOJA VIRTUAL-----*/
 
 article#loja-virtual {
