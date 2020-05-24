@@ -48,6 +48,11 @@ img {
     src: url(../fontes/Lato-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Roboto-Regular.ttf';
+    src: url(../fontes/Roboto-Regular.ttf);
+}
+
 /*HEADER CABECALHO*/
 
 header#cabecalho {
@@ -190,6 +195,36 @@ article#loja-virtual {
 
 article#loja-virtual img {
     width: 100%;
+}
+
+/*TEXT ARTICLE*/
+
+.text-article {
+    text-align: center;
+}
+
+.text-article h1 {
+    font-family: 'bubblegum', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: rgba(0, 0, 0, .9);
+    margin: 0 0 0 1%;
+    padding: 0;
+}
+
+.text-article h2 {
+    font-family: 'TitilliumWeb', Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgba(224, 10, 10, 0.9);   
+    margin: 0 0 0 1%;
+    padding: 0;
+}
+
+.text-article p {
+    font-family: 'Roboto-Regular.ttf', 'Lato-regular', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: rgba(29, 28, 28, 0.9);
+    margin: 0 0 3% 1%;
 }
 
 /*-----CONTATO-----*/ 
