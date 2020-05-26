@@ -1,0 +1,808 @@
+@charset "utf-8";
+
+@media screen and (max-width: 375px) {
+
+/*-----LOGO-----*/
+
+    h1.logo {
+        display: none;
+    }
+
+    h1.logo2 {
+        display: block;
+        float: left;
+        margin: 5% 10%;
+    }
+
+/*-----BANNER CONTATO-----*/
+
+    article#contato button{
+        font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.2em;
+        float: right;
+        padding: 1%;
+        border-radius: 10%;
+        cursor: pointer;
+        background-color: #f5f5f5;
+    }
+
+    article#contato {
+        background: url(../img/Contato.jpg) no-repeat fixed;
+    }
+
+/*-----RODAPE-----*/
+
+    footer {
+        font-family: 'Roboto-Regular.ttf';
+        font-style: normal;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 780px) {
+
+/*-----LOGO-----*/
+
+    h1.logo {
+        width: 40%;
+    }
+
+/*-----MENU-----*/
+
+    button#btn-menu {
+        display: none;
+    }
+
+    button#btn-close {
+        display: none;
+    }
+
+    nav#menu {
+        display: block;
+        position: relative;
+        width:40%;
+        height: 10%;
+        float: right;
+        margin: 7% 0;
+        background:none;
+
+    }
+
+    ul {
+        width: 100%;
+        margin: 0;
+    }
+    
+    ul li {
+        display: inline;
+        font-family: 'Roboto-Regular.ttf';
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: 100;
+        color: #4f4f4f;
+        padding: 2%;
+        margin: 0;
+    }
+
+    ul li:hover {
+        color: #ccc;
+    }
+
+/*-----BANNER-----*/
+
+.banner-principal {
+    width: 100%; 
+    height: 300%;   
+    float: left;
+    background: url(../img/banner.jpg) no-repeat fixed;
+    color: #f5f5f5;
+    padding: 5% 2%;
+}
+
+.banner-principal h1 {
+    font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5em;
+}
+
+.banner-principal h2 {
+    font-family: 'TitilliumWeb', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+button.planos {
+    color: #f5f5f5;
+    float: right;
+    font-family: 'TitilliumWeb', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 10% 5% 5% 0;
+    background-color: rgba(236, 15, 15, 0.1);
+    cursor: pointer;
+}
+
+.planos span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*-----ARTICLES SERVIÇOS-----*/
+
+/*-----MANUTENÇÃO-----*/
+
+article#manutencao {
+    width: 30%;
+    float: left;
+    margin: 2% 2% 0 0;
+}
+
+article#manutencao img {
+    width: 100%;
+}
+
+/*-----NETWORK-----*/
+
+article#network {
+    width: 30%;
+    float: left;
+    margin: 2% 4% 0 ;
+}
+
+article#network img {
+    width: 100%;
+}
+
+/*-----CONTRUÇÃO DE SITES-----*/
+
+article#construcao-site {
+    display: block;
+    width: 30%;
+    float: left;
+    margin: 2% 0 0;
+}
+
+article#construcao-site img {
+    
+}
+
+/*-----LOJA VIRTUAL-----*/
+
+article#loja-virtual {
+    width: 100%;
+    float: none;
+    margin: 3% auto;
+}
+
+article#loja-virtual img {
+    width: 100%;
+}
+
+/*TEXT ARTICLE LOJA VIRTUAL*/
+
+article#loja-virtual .text-article {
+    text-align: center;
+}
+
+/*TEXT ARTICLE*/
+
+.text-article {
+    text-align: left;
+}
+
+.text-article h1 {
+    font-family: 'bubblegum', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: rgba(0, 0, 0, .9);
+    margin: 0 0 0 1%;
+    padding: 0;
+}
+
+.text-article h2 {
+    font-family: 'TitilliumWeb', Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgba(224, 10, 10, 0.9);   
+    margin: 0 0 0 1%;
+    padding: 0;
+}
+
+.text-article p {
+    font-family: 'Roboto-Regular.ttf', 'Lato-regular', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: rgba(29, 28, 28, 0.9);
+    margin: 0 0 8% 1%;
+}
+
+/*-----CONTATO-----*/ 
+
+article#contato {
+    width: 100%;    
+    float: left;
+    padding: 2%;
+    margin: 3% 0 0;
+    background: url(../img/Contato.jpg) no-repeat fixed;
+}
+
+article#contato h1 {
+    color: #f5f5f5;
+    float: left;
+    font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 3em;
+    margin: 5% 0 0% 5%;
+}
+
+article#contato h2 {
+    color: #f5f5f5;
+    float: left;
+    font-family: 'TitilliumWeb', 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    margin: 2% 0 0 5%;
+}
+
+article#contato button{
+    font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    padding: 1%;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+
+/*-----RODAPÉ-----*/
+
+footer {
+    font-family: 'Roboto-Regular.ttf';
+    font-style: normal;
+    font-size: 1em;
+}
+
+div#rodape {
+    width: 98%;
+    margin: 2% auto;
+    background-color: black;
+    color: #f5f5f5;
+    padding: 5% 0 10%;
+}
+
+div#rodape img#face {
+    width: 8%;
+}
+
+div#rodape img#insta {
+    width: 4%;
+    margin: 0 1% 1% 0 ;
+}
+
+div#rodape img#link {
+    width:8%;
+}
+
+div#rodape img#twit {
+    width: 6%;
+
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    /*-----LOGO-----*/
+    
+        h1.logo {
+            width: 40%;
+        }
+    
+    /*-----MENU-----*/
+    
+        button#btn-menu {
+            display: none;
+        }
+    
+        button#btn-close {
+            display: none;
+        }
+    
+        nav#menu {
+            display: block;
+            position: relative;
+            width:40%;
+            height: 10%;
+            float: right;
+            margin: 2% 0;
+            background:none;
+    
+        }
+    
+        ul {
+            width: 100%;
+            margin: 0;
+        }
+        
+        ul li {
+            display: inline-block;
+            font-family: 'Roboto-Regular.ttf';
+            font-size: 1.8em;
+            text-align: center;
+            font-weight: 100;
+            color: #4f4f4f;
+            padding: 2%;
+            margin: 0;
+        }
+    
+        ul li:hover {
+            color: #ccc;
+        }
+    
+    /*-----BANNER-----*/
+    
+    .banner-principal {
+        width: 100%; 
+        height: 300%;   
+        float: left;
+        background: url(../img/banner.jpg) no-repeat fixed;
+        color: #f5f5f5;
+        padding: 5% 2%;
+    }
+    
+    .banner-principal h1 {
+        font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 4.5em;
+        margin-left: 5%;
+    }
+    
+    .banner-principal h2 {
+        font-family: 'TitilliumWeb', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 3em;
+        font-weight: 100;
+        margin: 2% 15%;
+    }
+    
+    button.planos {
+        color: #f5f5f5;
+        float: right;
+        font-family: 'TitilliumWeb', Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5em;
+        font-style: italic;
+        margin: 15% 5% 0 0;
+        background-color: rgba(236, 15, 15, 0.1);
+        cursor: pointer;
+    }
+    
+    .planos span {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    /*-----ARTICLES SERVIÇOS-----*/
+    
+    /*-----MANUTENÇÃO-----*/
+    
+    article#manutencao {
+        width: 30%;
+        float: left;
+        margin: 2% 1% 0 0;
+    }
+    
+    article#manutencao img {
+        width: 100%;
+    }
+    
+    /*-----NETWORK-----*/
+    
+    article#network {
+        width: 30%;
+        float: left;
+        margin: 2% 4% 0 ;
+    }
+    
+    article#network img {
+        width: 100%;
+    }
+    
+    /*-----CONTRUÇÃO DE SITES-----*/
+    
+    article#construcao-site {
+        display: block;
+        width: 30%;
+        float: left;
+        margin: 2% 0 0;
+    }
+    
+    article#construcao-site img {
+        
+    }
+    
+    /*-----LOJA VIRTUAL-----*/
+    
+    article#loja-virtual {
+        width: 100%;
+        float: none;
+        margin: 3% auto;
+    }
+    
+    article#loja-virtual img {
+        width: 100%;
+    }
+    
+    /*TEXT ARTICLE LOJA VIRTUAL*/
+    
+    article#loja-virtual .text-article {
+        text-align: center;
+    }
+    
+    /*TEXT ARTICLE*/
+    
+    .text-article {
+        text-align: left;
+    }
+    
+    .text-article h1 {
+        font-family: 'bubblegum', Arial, Helvetica, sans-serif;
+        font-size: 3em;
+        color: rgba(0, 0, 0, .9);
+        margin: 0 0 0 1%;
+        padding: 0;
+    }
+    
+    .text-article h2 {
+        font-family: 'TitilliumWeb', Arial, Helvetica, sans-serif;
+        font-size: 1.8em;
+        font-weight: bold;
+        color: rgba(224, 10, 10, 0.9);   
+        margin: 0 0 0 1%;
+        padding: 0;
+    }
+    
+    .text-article p {
+        font-family: 'Roboto-Regular.ttf', 'Lato-regular', Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5em;
+        color: rgba(29, 28, 28, 0.9);
+        margin: 0 0 8% 1%;
+    }
+    
+    /*-----CONTATO-----*/ 
+    
+    article#contato {
+        width: 100%;    
+        float: left;
+        padding: 2%;
+        margin: 3% 0 0;
+        background: url(../img/Contato.jpg) no-repeat fixed;
+    }
+    
+    article#contato h1 {
+        color: #f5f5f5;
+        float: left;
+        font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        font-size: 4.5em;
+        margin: 5% 0 0% 5%;
+    }
+    
+    article#contato h2 {
+        color: #f5f5f5;
+        float: left;
+        font-family: 'TitilliumWeb', 'Lato', Arial, Helvetica, sans-serif;
+        font-size: 3em;
+        margin: 2% 0 10% 5%;
+    }
+    
+    article#contato button{
+        font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 2em;
+        float: right;
+        padding: .4%;
+        border-radius: 10%;
+        cursor: pointer;
+        background-color: #f5f5f5;
+    }
+
+    /*-----RODAPÉ-----*/
+    
+    footer {
+        width: 100%;
+        float: left;
+        font-family: 'Roboto-Regular.ttf', 'Lato','Courier New', Courier, monospace;
+        font-size: 1.8em;
+        
+        text-align: center;
+        color: #f5f5f5;
+    }
+    
+    div#rodape {
+        width: 98%;
+        margin: 2% auto;
+        background-color: black;
+        color: #f5f5f5;
+        padding: 5% 0 10%;
+    }
+    
+    div#rodape img#face {
+        width: 8%;
+    }
+    
+    div#rodape img#insta {
+        width: 4%;
+        margin: 0 1% 1% 0 ;
+    }
+    
+    div#rodape img#link {
+        width:8%;
+    }
+    
+    div#rodape img#twit {
+        width: 6%;
+    
+    }
+    
+    }
+    
+    @media screen and (min-width: 1300px) {
+
+        /*-----TOPO-----*/
+
+        header#cabecalho {
+            margin-top: -3;
+            width: 100%;    
+            background-color: white;
+        }     
+        
+        /*-----LOGO-----*/
+        
+            h1.logo {
+                width: 20%;
+                margin: 5% 0 2% 5%;
+            }
+        
+        /*-----MENU-----*/
+        
+            button#btn-menu {
+                display: none;
+            }
+        
+            button#btn-close {
+                display: none;
+            }
+        
+            nav#menu {
+                display: block;
+                position: relative;
+                width:35%;
+                height: 5%;
+                float: right;
+                margin: 4% 0;
+                background:none;
+        
+            }
+        
+            ul {
+                width: 100%;
+                margin: 0;
+            }
+            
+            ul li {
+                display: inline-block;
+                font-family: 'Roboto-Regular.ttf';
+                font-size: 1.8em;
+                text-align: center;
+                font-weight: 100;
+                color: #4f4f4f;
+                padding: 2%;
+                margin: 0;
+            }
+        
+            ul li:hover {
+                color: #ccc;
+            }
+        
+        /*-----BANNER-----*/
+        
+        .banner-principal {
+            width: 100%; 
+            height: 300%;  
+            float: left;
+            background: url(../img/banner.jpg) no-repeat fixed;
+            color: #f5f5f5;
+            padding: 5% 2%;
+        }
+        
+        .banner-principal h1 {
+            font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 4.5em;
+            margin-left: 5%;
+        }
+        
+        .banner-principal h2 {
+            font-family: 'TitilliumWeb', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 3em;
+            font-weight: 100;
+            margin: 2% 15%;
+        }
+        
+        button.planos {
+            color: #f5f5f5;
+            float: right;
+            font-family: 'TitilliumWeb', Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.5em;
+            font-style: italic;
+            margin: 5% 5% 2% 0;
+            background-color: rgba(236, 15, 15, 0.1);
+            cursor: pointer;
+        }
+        
+        .planos span {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-style: normal;
+        }
+        
+        /*-----ARTICLES SERVIÇOS-----*/
+        
+        /*-----MANUTENÇÃO-----*/
+        
+        article#manutencao {
+            width: 30%;
+            float: left;
+            margin: 2% 1% 0 0;
+        }
+        
+        article#manutencao img {
+            width: 100%;
+        }
+        
+        /*-----NETWORK-----*/
+        
+        article#network {
+            width: 30%;
+            float: left;
+            margin: 2% 4% 0 ;
+        }
+        
+        article#network img {
+            width: 100%;
+        }
+        
+        /*-----CONTRUÇÃO DE SITES-----*/
+        
+        article#construcao-site {
+            display: block;
+            width: 30%;
+            float: left;
+            margin: 2% 0 0;
+        }
+        
+        article#construcao-site img {
+            
+        }
+        
+        /*-----LOJA VIRTUAL-----*/
+        
+        article#loja-virtual {
+            width: 100%;
+            float: left;
+            margin: 3% auto;
+        }
+        
+        article#loja-virtual img {
+            display: block;
+            float: left;
+            width: 60%;
+            margin-right: 2%;
+        }
+        
+        /*TEXT ARTICLE LOJA VIRTUAL*/
+        
+        article#loja-virtual .text-article {
+            text-align: left;
+            margin-left: 5%;
+        }
+        
+        /*TEXT ARTICLE*/
+        
+        .text-article {
+            text-align: left;
+        }
+        
+        .text-article h1 {
+            font-family: 'bubblegum', Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            color: rgba(0, 0, 0, .9);
+            margin: 0 0 0 1%;
+            padding: 0;
+        }
+        
+        .text-article h2 {
+            font-family: 'TitilliumWeb', Arial, Helvetica, sans-serif;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: rgba(224, 10, 10, 0.9);   
+            margin: 0 0 0 1%;
+            padding: 0;
+        }
+        
+        .text-article p {
+            font-family: 'Roboto-Regular.ttf', 'Lato-regular', Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.5em;
+            color: rgba(29, 28, 28, 0.9);
+            margin: 0 0 8% 1%;
+        }
+        
+        /*-----CONTATO-----*/ 
+        
+        article#contato {
+            width: 100%;    
+            float: left;
+            padding: 2%;
+            margin: 0;
+            background: url(../img/Contato.jpg) no-repeat fixed;
+        }
+        
+        article#contato h1 {
+            color: #f5f5f5;
+            float: left;
+            font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            font-size: 4.5em;
+            margin: 5% 0 0% 5%;
+        }
+        
+        article#contato h2 {
+            color: #f5f5f5;
+            float: left;
+            font-family: 'TitilliumWeb', 'Lato', Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            margin: 2% 0 5% 5%;
+        }
+        
+        article#contato button{
+            font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 2em;
+            float: right;
+            padding: .4%;
+            border-radius: 10%;
+            cursor: pointer;
+            background-color: #f5f5f5;
+        }
+    
+        /*-----RODAPÉ-----*/
+        
+        footer {
+            width: 100%;
+            float: left;
+            font-family: 'Roboto-Regular.ttf', 'Lato','Courier New', Courier, monospace;
+            font-size: 1.8em;
+            
+            text-align: center;
+            color: #f5f5f5;
+        }
+        
+        div#rodape {
+            width: 98%;
+            margin: 1% auto;
+            background-color: black;
+            color: #f5f5f5;
+            padding: 0;
+        }
+        
+        div#rodape img#face {
+            width: 4%;
+            margin-bottom: .9%;
+        }
+        
+        div#rodape img#insta {
+            width: 2.8%;
+            margin: 0 1% 1.2% 0 ;
+        }
+        
+        div#rodape img#link {
+            width:4%;
+            margin-bottom: 1%;
+        }
+        
+        div#rodape img#twit {
+            width: 3.5%;
+            margin-bottom: 1%;        
+        }
+        
+        }
+        
