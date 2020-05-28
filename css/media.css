@@ -14,30 +14,13 @@
         margin: 5% 10%;
     }
 
-/*-----BANNER CONTATO-----*/
-
-    article#contato button{
-        font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1.2em;
-        float: right;
-        padding: 1%;
-        border-radius: 10%;
-        cursor: pointer;
-        background-color: #f5f5f5;
-    }
-
-    article#contato {
-        background: url(../img/Contato.jpg) no-repeat fixed;
-    }
-
-/*-----RODAPE-----*/
-
+/*-----RODAPÉ-----*/
     footer {
-        font-family: 'Roboto-Regular.ttf';
-        font-style: normal;
-        font-size: 1em;
+    font-size: .9em;
     }
 }
+
+
 
 @media screen and (min-width: 780px) {
 
@@ -220,13 +203,12 @@ article#contato {
     width: 100%;    
     float: left;
     padding: 2%;
-    margin: 3% 0 0;
+    margin: 1% 0 0;
     background: url(../img/Contato.jpg) no-repeat fixed;
 }
 
 article#contato h1 {
     color: #f5f5f5;
-    float: left;
     font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     font-size: 3em;
     margin: 5% 0 0% 5%;
@@ -234,17 +216,36 @@ article#contato h1 {
 
 article#contato h2 {
     color: #f5f5f5;
-    float: left;
     font-family: 'TitilliumWeb', 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: normal;
     font-size: 1.8em;
-    margin: 2% 0 0 5%;
+    margin: 0 0 0 5%;
+}
+
+article#contato p {
+    color: #f5f5f5;
+    font-size: 1.4em;
+    margin:1% 0 0 5%;
+}
+
+article#contato input {
+    color: #f5f5f5;
+    padding: .8%;
+    border: 1px solid rgba(163, 157, 157, 0.3);
+    border-radius: 5px;
+    background:none;
+}
+
+input#cNome {
+    margin-left: .8%;
 }
 
 article#contato button{
-    font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    float: right;
-    padding: 1%;
-    border-radius: 10%;
+    font-family: 'Roboto-Regular.ttf', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2;
+    padding: 1% 3%;
+    border-radius: 5px;
+    margin: 5%;
     cursor: pointer;
     background-color: #f5f5f5;
 }
@@ -259,7 +260,7 @@ footer {
 
 div#rodape {
     width: 98%;
-    margin: 2% auto;
+    margin: 2% auto -5%;
     background-color: black;
     color: #f5f5f5;
     padding: 5% 0 10%;
@@ -270,7 +271,7 @@ div#rodape img#face {
 }
 
 div#rodape img#insta {
-    width: 4%;
+    width: 5%;
     margin: 0 1% 1% 0 ;
 }
 
@@ -279,7 +280,7 @@ div#rodape img#link {
 }
 
 div#rodape img#twit {
-    width: 6%;
+    width: 7%;
 
 }
 
@@ -468,51 +469,65 @@ div#rodape img#twit {
         width: 100%;    
         float: left;
         padding: 2%;
-        margin: 3% 0 0;
+        margin: 1% 0 0;
         background: url(../img/Contato.jpg) no-repeat fixed;
     }
     
     article#contato h1 {
         color: #f5f5f5;
-        float: left;
         font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-        font-size: 4.5em;
+        font-size: 3em;
         margin: 5% 0 0% 5%;
     }
     
     article#contato h2 {
         color: #f5f5f5;
-        float: left;
         font-family: 'TitilliumWeb', 'Lato', Arial, Helvetica, sans-serif;
-        font-size: 3em;
-        margin: 2% 0 10% 5%;
+        font-weight: normal;
+        font-size: 1.8em;
+        margin: 0 0 0 5%;
+    }
+    
+    article#contato p {
+        color: #f5f5f5;
+        font-size: 1.4em;
+        margin:1% 0 0 5%;
+    }
+    
+    article#contato input {
+        color: #f5f5f5;
+        padding: .8% 30% .8% .8%;
+        border: 1px solid rgba(163, 157, 157, 0.3);
+        border-radius: 5px;
+        background:none;
+    }
+    
+    input#cNome {
+        margin-left: .7%;
     }
     
     article#contato button{
-        font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 2em;
-        float: right;
-        padding: .4%;
-        border-radius: 10%;
+        font-family: 'Roboto-Regular.ttf', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 1% 3%;
+        border-radius: 5px;
+        margin: 5%;
         cursor: pointer;
         background-color: #f5f5f5;
     }
-
     /*-----RODAPÉ-----*/
     
     footer {
         width: 100%;
         float: left;
         font-family: 'Roboto-Regular.ttf', 'Lato','Courier New', Courier, monospace;
-        font-size: 1.8em;
-        
+        font-size: 1em;        
         text-align: center;
         color: #f5f5f5;
     }
     
     div#rodape {
         width: 98%;
-        margin: 2% auto;
+        margin: 2% auto -5%;
         background-color: black;
         color: #f5f5f5;
         padding: 5% 0 10%;
@@ -734,32 +749,48 @@ div#rodape img#twit {
             width: 100%;    
             float: left;
             padding: 2%;
-            margin: 0;
+            margin: 1% 0 0;
             background: url(../img/Contato.jpg) no-repeat fixed;
         }
         
         article#contato h1 {
             color: #f5f5f5;
-            float: left;
             font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-            font-size: 4.5em;
+            font-size: 3em;
             margin: 5% 0 0% 5%;
         }
         
         article#contato h2 {
             color: #f5f5f5;
-            float: left;
             font-family: 'TitilliumWeb', 'Lato', Arial, Helvetica, sans-serif;
-            font-size: 3em;
-            margin: 2% 0 5% 5%;
+            font-weight: normal;
+            font-size: 1.8em;
+            margin: 0 0 0 5%;
+        }
+        
+        article#contato p {
+            color: #f5f5f5;
+            font-size: 1.4em;
+            margin:1% 0 0 5%;
+        }
+        
+        article#contato input {
+            color: #f5f5f5;
+            padding: .8% 30% .8% .8%;
+            border: 1px solid rgba(163, 157, 157, 0.3);
+            border-radius: 5px;
+            background:none;
+        }
+        
+        input#cNome {
+            margin-left: .5%;
         }
         
         article#contato button{
-            font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 2em;
-            float: right;
-            padding: .4%;
-            border-radius: 10%;
+            font-family: 'Roboto-Regular.ttf', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 1% 3%;
+            border-radius: 5px;
+            margin: 5%;
             cursor: pointer;
             background-color: #f5f5f5;
         }
@@ -770,18 +801,17 @@ div#rodape img#twit {
             width: 100%;
             float: left;
             font-family: 'Roboto-Regular.ttf', 'Lato','Courier New', Courier, monospace;
-            font-size: 1.8em;
-            
+            font-size: 1em;            
             text-align: center;
             color: #f5f5f5;
         }
         
         div#rodape {
             width: 98%;
-            margin: 1% auto;
+            margin: 1% auto -5%;
             background-color: black;
             color: #f5f5f5;
-            padding: 0;
+            padding: 5%;
         }
         
         div#rodape img#face {

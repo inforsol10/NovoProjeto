@@ -101,7 +101,7 @@ ul li {
 }
 
 button#btn-menu {
-    width: 10%;
+    width: 8%;
     display: block;
     float: right;
     margin: 10% 5% 0;
@@ -258,7 +258,6 @@ article#contato {
 
 article#contato h1 {
     color: #f5f5f5;
-    float: left;
     font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     font-size: 3em;
     margin: 5% 0 0% 5%;
@@ -266,17 +265,36 @@ article#contato h1 {
 
 article#contato h2 {
     color: #f5f5f5;
-    float: left;
     font-family: 'TitilliumWeb', 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: normal;
     font-size: 1.8em;
-    margin: 2% 0 0 5%;
+    margin: 0 0 0 5%;
+}
+
+article#contato p {
+    color: #f5f5f5;
+    font-size: 1.4em;
+    margin:1% 0 0 5%;
+}
+
+article#contato input {
+    color: #f5f5f5;
+    padding: .8%;
+    border: 1px solid rgba(163, 157, 157, 0.3);
+    border-radius: 5px;
+    background:none;
+}
+
+input#cNome {
+    margin-left: 1.1%;
 }
 
 article#contato button{
-    font-family: 'bubblegum', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    float: right;
-    padding: 1%;
+    font-family: 'Roboto-Regular.ttf', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    padding: 1% 2%;
     border-radius: 10%;
+    margin: 5%;
     cursor: pointer;
     background-color: #f5f5f5;
 }
@@ -286,9 +304,8 @@ article#contato button{
 footer {
     width: 100%;
     float: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.2em;
-    
+    font-family: 'Roboto-Regular.ttf', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .9em;    
     font-style: normal;
     text-align: center;
     color: #f5f5f5;
@@ -296,30 +313,35 @@ footer {
 
 div#rodape {
     width: 98%;
-    margin: 2% auto;
+    margin: 2% auto -5%;
+    background-color: black;
+    color: #f5f5f5;
+    padding: 5% 0 10%;
+}
+
+div#rodape {
+    width: 98%;
+    margin: 2% auto -5%;
     background-color: black;
     color: #f5f5f5;
     padding: 5% 0 10%;
 }
 
 div#rodape img#face {
-    width: 15%;
-    margin: 0;
+    width: 8%;
 }
 
 div#rodape img#insta {
-    width: 11%;
+    width: 5%;
     margin: 0 1% 1% 0 ;
 }
 
 div#rodape img#link {
-    width:15%;
-    margin: 0;
+    width:8%;
 }
 
 div#rodape img#twit {
-    width: 13%;
-    margin: 0;
+    width: 7%;
 
 }
 
