@@ -260,7 +260,7 @@ footer {
 
 div#rodape {
     width: 98%;
-    margin: 2% auto -5%;
+    margin: 0 auto;
     background-color: black;
     color: #f5f5f5;
     padding: 5% 0 10%;
@@ -527,7 +527,7 @@ div#rodape img#twit {
     
     div#rodape {
         width: 98%;
-        margin: 2% auto -5%;
+        margin: 0 auto;
         background-color: black;
         color: #f5f5f5;
         padding: 5% 0 10%;
@@ -801,17 +801,17 @@ div#rodape img#twit {
             width: 100%;
             float: left;
             font-family: 'Roboto-Regular.ttf', 'Lato','Courier New', Courier, monospace;
-            font-size: 1em;            
+            font-size: 1.1em;            
             text-align: center;
             color: #f5f5f5;
         }
         
         div#rodape {
             width: 98%;
-            margin: 1% auto -5%;
+            margin: 0 auto;
             background-color: black;
             color: #f5f5f5;
-            padding: 5%;
+            padding: 5% 0;
         }
         
         div#rodape img#face {

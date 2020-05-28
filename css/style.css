@@ -303,6 +303,7 @@ article#contato button{
 
 footer {
     width: 100%;
+    margin: 0;
     float: left;
     font-family: 'Roboto-Regular.ttf', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .9em;    
@@ -313,15 +314,7 @@ footer {
 
 div#rodape {
     width: 98%;
-    margin: 2% auto -5%;
-    background-color: black;
-    color: #f5f5f5;
-    padding: 5% 0 10%;
-}
-
-div#rodape {
-    width: 98%;
-    margin: 2% auto -5%;
+    margin: 0 auto;
     background-color: black;
     color: #f5f5f5;
     padding: 5% 0 10%;
