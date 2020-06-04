@@ -804,6 +804,7 @@ div#rodape img#twit {
             font-size: 1.1em;            
             text-align: center;
             color: #f5f5f5;
+            background: none;
         }
         
         div#rodape {
